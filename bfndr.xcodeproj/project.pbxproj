@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC09E691B1F72D100958D06 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC09E681B1F72D100958D06 /* TableViewController.swift */; };
 		0FDB63361B12EAAD00BB8EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB63351B12EAAD00BB8EE2 /* AppDelegate.swift */; };
 		0FDB63381B12EAAD00BB8EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB63371B12EAAD00BB8EE2 /* ViewController.swift */; };
 		0FDB633B1B12EAAD00BB8EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDB63391B12EAAD00BB8EE2 /* Main.storyboard */; };
 		0FDB633D1B12EAAD00BB8EE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDB633C1B12EAAD00BB8EE2 /* Images.xcassets */; };
 		0FDB63401B12EAAD00BB8EE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDB633E1B12EAAD00BB8EE2 /* LaunchScreen.xib */; };
 		0FDB634C1B12EAAD00BB8EE2 /* bfndrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB634B1B12EAAD00BB8EE2 /* bfndrTests.swift */; };
+		0FDB63571B13A08400BB8EE2 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB63561B13A08400BB8EE2 /* Bar.swift */; };
+		0FDB635A1B14D0B500BB8EE2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB63591B14D0B500BB8EE2 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FC09E681B1F72D100958D06 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0FDB63301B12EAAD00BB8EE2 /* bfndr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bfndr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDB63341B12EAAD00BB8EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FDB63351B12EAAD00BB8EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		0FDB63451B12EAAD00BB8EE2 /* bfndrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bfndrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDB634A1B12EAAD00BB8EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FDB634B1B12EAAD00BB8EE2 /* bfndrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bfndrTests.swift; sourceTree = "<group>"; };
+		0FDB63551B12EB9800BB8EE2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		0FDB63561B13A08400BB8EE2 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		0FDB63581B14D0B500BB8EE2 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = "../../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.h"; sourceTree = "<group>"; };
+		0FDB63591B14D0B500BB8EE2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 		0FDB63271B12EAAD00BB8EE2 = {
 			isa = PBXGroup;
 			children = (
+				0FDB63551B12EB9800BB8EE2 /* MyPlayground.playground */,
 				0FDB63321B12EAAD00BB8EE2 /* bfndr */,
 				0FDB63481B12EAAD00BB8EE2 /* bfndrTests */,
 				0FDB63311B12EAAD00BB8EE2 /* Products */,
@@ -77,8 +86,12 @@
 		0FDB63321B12EAAD00BB8EE2 /* bfndr */ = {
 			isa = PBXGroup;
 			children = (
+				0FDB63581B14D0B500BB8EE2 /* SwiftyJSON.h */,
+				0FDB63591B14D0B500BB8EE2 /* SwiftyJSON.swift */,
 				0FDB63351B12EAAD00BB8EE2 /* AppDelegate.swift */,
 				0FDB63371B12EAAD00BB8EE2 /* ViewController.swift */,
+				0FC09E681B1F72D100958D06 /* TableViewController.swift */,
+				0FDB63561B13A08400BB8EE2 /* Bar.swift */,
 				0FDB63391B12EAAD00BB8EE2 /* Main.storyboard */,
 				0FDB633C1B12EAAD00BB8EE2 /* Images.xcassets */,
 				0FDB633E1B12EAAD00BB8EE2 /* LaunchScreen.xib */,
@@ -213,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FDB63381B12EAAD00BB8EE2 /* ViewController.swift in Sources */,
+				0FDB63571B13A08400BB8EE2 /* Bar.swift in Sources */,
 				0FDB63361B12EAAD00BB8EE2 /* AppDelegate.swift in Sources */,
+				0FC09E691B1F72D100958D06 /* TableViewController.swift in Sources */,
+				0FDB635A1B14D0B500BB8EE2 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				0FDB63511B12EAAD00BB8EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FDB63521B12EAAD00BB8EE2 /* Build configuration list for PBXNativeTarget "bfndrTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				0FDB63541B12EAAD00BB8EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
