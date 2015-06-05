@@ -12,13 +12,16 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var myButton: UIButton!
-
+    @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
+    @IBAction func startSpinning(sender: UIButton){
+        activityIndicatorView.startAnimating()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let urlString = "http://10.180.62.153:8000/bars/"
+        /*let urlString = "http://10.180.62.153:8000/bars/"
         
         let myUrl = NSURL(string: urlString)
         
@@ -46,7 +49,7 @@ class ViewController: UIViewController {
         })
         
         downloadTask.resume()
-        
+        */
         
         
     }

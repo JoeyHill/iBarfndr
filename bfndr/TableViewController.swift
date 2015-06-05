@@ -46,8 +46,11 @@ class TableViewController: UITableViewController {
                 
             }
         })
-        
-        downloadTask.resume()
+        let connectionTest = ConnectionTest(url: urlString)
+        println(connectionTest.Test())
+        if(connectionTest.Test()){
+            downloadTask.resume()
+        }
         return outputDictionary
     }
     
@@ -66,8 +69,12 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let barUrl: String = "http://10.180.62.153:8000/bars/"
-        bars = getJsonAsync(barUrl)
+        let barUrl: String = "http://10.180.62.214:8000/bars/"
+        let conTest = ConnectionTest(url: barUrl)
+        
+        if(conTest.Test()){
+            bars = getJsonAsync(barUrl)
+        }
         println(bars.count)
 
         // Uncomment the following line to preserve selection between presentations

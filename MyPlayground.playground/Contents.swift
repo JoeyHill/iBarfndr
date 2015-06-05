@@ -4,6 +4,8 @@ import UIKit
 
 
 
+
+
 var str = "Hello, playground"
 
 let urlString = "http://10.180.62.153:8000/bars/"
@@ -50,6 +52,5 @@ for bar in jsonArray{
     tempBar.Address = bar["address"] as! String
     bars.append(tempBar)
 }
-
 
 
